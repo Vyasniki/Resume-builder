@@ -1,0 +1,213 @@
+ /* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Apply font style to the entire page */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  color: #333;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #7a7b7c, #a6f1c4);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #fffdfd;
+}
+
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .hero-image {
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  .hero-content {
+    padding: 0 20px;
+  }
+  
+  .hero-content h2 {
+    color: #0f0f10;
+    font-size: 45px;
+  }
+
+  .hero-content p{
+    font-size: 20px;
+    color: #353635;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #submit {
+    display: block;              
+  margin: 20px auto;    
+  width: 200px;                
+  padding: 10px;               
+  text-align: center; 
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color:linear-gradient(135deg, #7a7b7c, #a6f1c4);
+    color: #050505;
+  }
+
+  /* css for form file */
+
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .form-section, .preview-section {
+    width: 48%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #4a90e2;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+
+  .resume-template {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a9a6a6;
+    padding-bottom: 10px;
+  }
+  
+  .initials-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007acc;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .contact-info h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #007acc;
+  }
+  hr {
+    border: none;          
+    height: 0.5px;            
+    background-color: #a9a6a6; 
+    margin: 20px 0;         
+  }
+  
+  .resume-section h2 {
+    color: #232323;
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  
+  .work-entry, .resume-section {
+    margin-top: 20px;
+  }
+
+  .resume-section p {
+    white-space: pre-wrap;
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #333;
+    word-wrap: break-word;       /* Break long words */
+  overflow-wrap: break-word; 
+  }
+  
+  #downloadpdf {
+    display: block;        
+    margin: 20px auto;        
+    padding: 10px 20px;        
+    width: fit-content;          
+    text-align: center;
+  }
+  
